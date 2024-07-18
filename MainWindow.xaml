@@ -3,15 +3,26 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="Image Processor" Height="350" Width="525">
     <Grid Background="Cyan">
-        <Button Content="Upload image" HorizontalAlignment="Left" VerticalAlignment="Top" Width="150" Click="UploadImage_Click" Margin="98,266,0,0" Background="#FF22EF1B"/>
-        <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="135,50,0,0" Width="380">
-            <Image x:Name="ImageR" Width="100" Height="150"/>
-            <Image x:Name="ImageG" Width="100" Height="150"/>
-            <Image x:Name="ImageB" Width="100" Height="150"/>
-            
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.7*"/>
+            <RowDefinition Height="0.3*"/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Row="1" Orientation="Horizontal" Width="350" Height="50">
+            <Button Background="#FF22EF1B" HorizontalAlignment="Left" Width="150" Height="50"
+            Content="Upload image" Click="UploadImage_Click" />
+            <Button  Background="#FF22EF1B" Width="150" Height="50"
+            Content="Use default image"  Click="UseDefaultImage_Click" Margin="50,0,0,0" />
         </StackPanel>
-        <Image x:Name="Main_image"
-            HorizontalAlignment="Left" Height="150" Margin="10,92,0,0" VerticalAlignment="Top" Width="100"/>
-        <Button Content="Use default image" HorizontalAlignment="Left" VerticalAlignment="Top" Width="150" Click="UseDefaultImage_Click" Margin="287,266,0,0" Background="#FF22EF1B"/>
+
+
+        <StackPanel Grid.Row="0" Orientation="Horizontal" Width="440" Height="200" >
+            <Image x:Name="Main_image" Width="110" Height="150" Stretch="Fill" />
+            <Image x:Name="ImageR" Width="100" Height="125" Stretch="Fill" Margin="10,0,0,0"/>
+            <Image x:Name="ImageG" Width="100" Height="125" Stretch="Fill" Margin="10,0,0,0"/>
+            <Image x:Name="ImageB" Width="100" Height="125" Stretch="Fill" Margin="10,0,0,0"/>
+        </StackPanel>
+
     </Grid>
 </Window>

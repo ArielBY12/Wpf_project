@@ -1,18 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "+ylbiC6vDHM=",
+  "dgSpecHash": "FII970RHOuQ=",
   "success": true,
-  "projectFilePath": "C:\\Users\\user\\Desktop\\WpfApp\\WpfApp.csproj",
+  "projectFilePath": "C:\\Users\\ben yaish\\Desktop\\MyFirstProject\\Wpf_project\\WpfApp.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\user\\.nuget\\packages\\dotimaging.bitmapinterop\\5.2.0\\dotimaging.bitmapinterop.5.2.0.nupkg.sha512",
-    "C:\\Users\\user\\.nuget\\packages\\dotimaging.image\\5.2.0\\dotimaging.image.5.2.0.nupkg.sha512",
-    "C:\\Users\\user\\.nuget\\packages\\microsoft.netcore.platforms\\2.0.0\\microsoft.netcore.platforms.2.0.0.nupkg.sha512",
-    "C:\\Users\\user\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
-    "C:\\Users\\user\\.nuget\\packages\\microsoft.win32.systemevents\\4.5.0\\microsoft.win32.systemevents.4.5.0.nupkg.sha512",
-    "C:\\Users\\user\\.nuget\\packages\\system.drawing.common\\4.5.1\\system.drawing.common.4.5.1.nupkg.sha512",
-    "C:\\Users\\user\\.nuget\\packages\\system.drawing.primitives\\4.3.0\\system.drawing.primitives.4.3.0.nupkg.sha512",
-    "C:\\Users\\user\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512",
-    "C:\\Users\\user\\.nuget\\packages\\system.runtime.extensions\\4.3.0\\system.runtime.extensions.4.3.0.nupkg.sha512"
+    "C:\\Users\\ben yaish\\.nuget\\packages\\dotimaging.bitmapinterop\\5.2.0\\dotimaging.bitmapinterop.5.2.0.nupkg.sha512",
+    "C:\\Users\\ben yaish\\.nuget\\packages\\dotimaging.image\\5.2.0\\dotimaging.image.5.2.0.nupkg.sha512",
+    "C:\\Users\\ben yaish\\.nuget\\packages\\microsoft.netcore.platforms\\2.0.0\\microsoft.netcore.platforms.2.0.0.nupkg.sha512",
+    "C:\\Users\\ben yaish\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "C:\\Users\\ben yaish\\.nuget\\packages\\microsoft.win32.systemevents\\4.5.0\\microsoft.win32.systemevents.4.5.0.nupkg.sha512",
+    "C:\\Users\\ben yaish\\.nuget\\packages\\system.drawing.common\\4.5.1\\system.drawing.common.4.5.1.nupkg.sha512",
+    "C:\\Users\\ben yaish\\.nuget\\packages\\system.drawing.primitives\\4.3.0\\system.drawing.primitives.4.3.0.nupkg.sha512",
+    "C:\\Users\\ben yaish\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512",
+    "C:\\Users\\ben yaish\\.nuget\\packages\\system.runtime.extensions\\4.3.0\\system.runtime.extensions.4.3.0.nupkg.sha512"
   ],
   "logs": []
 }
